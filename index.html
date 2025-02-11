@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="output1">
+            <div class="output">
+
+            </div>
+        </div>
+        <div class="input">
+            <div class="buttons"><button class="inp" onclick=clearText()>AC</button></div>
+            <div class="buttons"><button class="inp" onclick="addText('-')">+/-</button></div>
+            <div class="buttons"><button class="inp" onclick="addText('%')">%</button></div>
+            <div class="buttons"><button class="inp" onclick="addText('/')" >/</button></div>
+            <div class="buttons"><button class="inp" onclick=addText(7)>7</button></div>
+            <div class="buttons"><button class="inp" onclick=addText(8)>8</button></div>
+            <div class="buttons"><button class="inp" onclick=addText(9)>9</button></div>
+            <div class="buttons"><button class="inp" onclick="addText('*')">*</button></div>
+            <div class="buttons"><button class="inp" onclick=addText(4)>4</button></div>
+            <div class="buttons"><button class="inp" onclick=addText(5)>5</button></div>
+            <div class="buttons"><button class="inp" onclick=addText(6)>6</button></div>
+            <div class="buttons"><button class="inp" onclick="addText('-')">-</button></div>
+            <div class="buttons"><button class="inp" onclick=addText(3)>3</button></div>
+            <div class="buttons"><button class="inp" onclick=addText(2)>2</button></div>
+            <div class="buttons"><button class="inp" onclick=addText(1)>1</button></div>
+            <div class="buttons"><button class="inp" onclick="addText('+')">+</button></div>
+            <div class="buttons"><button class="inp" onclick=addText(0)>0</button></div>
+            <div class="buttons"><button class="inp" onclick="addText('.')">.</button></div>
+            <div class="buttons equal"><button class="inp" onclick=calculate()>=</button></div>
+        </div>
+    </div>
+    <div class="credit">
+        &copy;Anshul Patel
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
